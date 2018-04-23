@@ -10,4 +10,26 @@
 
 @implementation ContactList
 
+- (instancetype)initWithContactList
+{
+    self = [super init];
+    if (self) {
+        _contactList = [[NSMutableArray alloc] init];
+    }
+    return self;
+}
+
+-(void)addContact:(Contact *)newContact
+{
+    [self.contactList addObject: (Contact *) newContact];
+}
+
+- (NSMutableArray *) printList  {
+    for (Contact *contact in  _contactList) {
+        NSUInteger index = [_contactList indexOfObject:contact];
+        NSLog(@"%lu: <%@> ()",index, contact.name);
+    }
+    return nil;
+}
+
 @end
