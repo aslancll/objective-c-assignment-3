@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		632CD8CA208A9CEE00394E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 632CD8C9208A9CEE00394E5B /* main.m */; };
 		632CD8D7208AA73E00394E5B /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 632CD8D6208AA73E00394E5B /* Contact.m */; };
+		639346CD20913A7400221F18 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 639346CC20913A7400221F18 /* InputCollector.m */; };
 		63B6861E208DB99800410EA9 /* ContactList.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B6861D208DB99800410EA9 /* ContactList.m */; };
-		63B68621208DBF7900410EA9 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B68620208DBF7900410EA9 /* InputCollector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,10 +30,10 @@
 		632CD8C9208A9CEE00394E5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		632CD8D5208AA73E00394E5B /* Contact.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
 		632CD8D6208AA73E00394E5B /* Contact.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		639346CB20913A7400221F18 /* InputCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		639346CC20913A7400221F18 /* InputCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 		63B6861C208DB99800410EA9 /* ContactList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactList.h; sourceTree = "<group>"; };
 		63B6861D208DB99800410EA9 /* ContactList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactList.m; sourceTree = "<group>"; };
-		63B6861F208DBF7900410EA9 /* InputCollector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
-		63B68620208DBF7900410EA9 /* InputCollector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +70,8 @@
 				632CD8D6208AA73E00394E5B /* Contact.m */,
 				63B6861C208DB99800410EA9 /* ContactList.h */,
 				63B6861D208DB99800410EA9 /* ContactList.m */,
-				63B6861F208DBF7900410EA9 /* InputCollector.h */,
-				63B68620208DBF7900410EA9 /* InputCollector.m */,
+				639346CB20913A7400221F18 /* InputCollector.h */,
+				639346CC20913A7400221F18 /* InputCollector.m */,
 				632CD8C9208A9CEE00394E5B /* main.m */,
 			);
 			path = "objective-c-assignment#3";
@@ -136,7 +136,7 @@
 			files = (
 				63B6861E208DB99800410EA9 /* ContactList.m in Sources */,
 				632CD8D7208AA73E00394E5B /* Contact.m in Sources */,
-				63B68621208DBF7900410EA9 /* InputCollector.m in Sources */,
+				639346CD20913A7400221F18 /* InputCollector.m in Sources */,
 				632CD8CA208A9CEE00394E5B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

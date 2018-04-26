@@ -2,7 +2,7 @@
 //  InputCollector.m
 //  objective-c-assignment#3
 //
-//  Created by Celal Aslan on 2018-04-23.
+//  Created by Celal Aslan on 2018-04-25.
 //  Copyright © 2018 Celal Aslan. All rights reserved.
 //
 
@@ -10,11 +10,22 @@
 
 @implementation InputCollector
 
-- (NSString *) inputPrompt:(NSString *)inputPrompt
-{
-    NSLog(@"\n%@", inputPrompt);
-    NSString *input;
-    return input;
++ (NSString *)inputForPrompt:(NSString *)promptString {
+    
+    char option[255];
+    NSLog(@"%@",promptString);
+    fgets(option, 255, stdin);
+    
+    NSString *textTyped = [NSString stringWithUTF8String:option];
+    NSString *text = [textTyped stringByReplacingOccurrencesOfString:@"\n" withString:@""];
+    
+    return text;
+}
+
++ (void)printToPrompt:(NSString *)promptString {
+    
+    NSLog(@"%@",promptString);
 }
 
 @end
+
